@@ -1,0 +1,25 @@
+h1 {
+	color: blue;
+	border-bottom: 2px solid blue;	
+	width: 200px;
+	text-align: center;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	padding: 5px 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.05);
+	cursor: zoom-in;
+
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
